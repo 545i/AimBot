@@ -29,8 +29,8 @@ AimBot是一個基於計算機視覺的螢幕捕獲和目標檢測系統，主�
 
 1. 複製倉庫
 ```bash
-git clone https://github.com/yourusername/ColorBot.git
-cd ColorBot
+git clone https://github.com/545i/AimBot.git
+cd AimBot
 ```
 
 2. 配置CMake
@@ -46,7 +46,7 @@ cmake --build . --config Release
 ## 項目結構
 
 ```
-ColorBot/
+AimBot/
 ├── src/
 │   ├── main.cpp              # 主程式入口
 │   ├── ScreenCapture.cpp     # 螢幕捕獲實現
@@ -69,4 +69,4 @@ ColorBot/
 
 ## 許可證
 
-[AGPL License](LICENSE) 
+[AGPL-3.0 License](LICENSE) 
