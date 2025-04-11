@@ -115,7 +115,8 @@ VmUse.txt
 # 排除备份目录
 backup/
 *.txt
-*.md
+!README.md
+!README_EN.md
 *.pdf
 *.docx
 *.doc
