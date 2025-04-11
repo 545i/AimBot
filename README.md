@@ -1,72 +1,75 @@
 # AimBot
 
-AimBot是一個基於計算機視覺的螢幕捕獲和目標檢測系統，主要用於遊戲輔助和自動化操作。
 
-## 主要功能
+# AimBot
 
-- 高性能螢幕捕獲
-- 即時目標檢測
-- 智慧瞄準系統
-- 多語言支持
-- 安全保護機制
+AimBot is a computer vision-based screen capture and target detection system, primarily designed for gaming assistance and automation.
 
-## 技術特點
+## Main Features
 
-- 使用OpenCV進行圖像處理
-- 基於DXGI的高效螢幕捕獲
-- PID控制器實現平滑瞄準
-- 多執行緒處理提高性能
-- 記憶體映射最佳化數據傳輸
+- High-performance screen capture
+- Real-time target detection
+- Intelligent aiming system
+- Multi-language support
+- Security protection mechanism
 
-## 系統要求
+## Technical Features
 
-- Windows 10或更高版本
-- DirectX 11或更高版本
+- Image processing using OpenCV
+- Efficient screen capture based on DXGI
+- Smooth aiming with PID controller
+- Multi-threaded processing for improved performance
+- Memory mapping optimization for data transfer
+
+## System Requirements
+
+- Windows 10 or later
+- DirectX 11 or later
 - OpenCV 4.x
-- CMake 3.10或更高版本
+- CMake 3.10 or later
 
-## 構建說明
+## Build Instructions
 
-1. 複製倉庫
+1. Clone the repository
 ```bash
 git clone https://github.com/545i/AimBot.git
 cd AimBot
 ```
 
-2. 配置CMake
+2. Configure CMake
 ```bash
 cmake .. -DUSE_DML=ON -DCMAKE_BUILD_TYPE=Release
 ```
 
-3. 構建項目
+3. Build the project
 ```bash
 cmake --build . --config Release
 ```
 
-## 項目結構
+## Project Structure
 
 ```
 AimBot/
 ├── src/
-│   ├── main.cpp              # 主程式入口
-│   ├── ScreenCapture.cpp     # 螢幕捕獲實現
-│   ├── SecurityProtection.cpp # 安全保護機制
-│   ├── SystemUtils.cpp       # 系統工具函數
+│   ├── main.cpp              # Main program entry
+│   ├── ScreenCapture.cpp     # Screen capture implementation
+│   ├── SecurityProtection.cpp # Security protection mechanism
+│   ├── SystemUtils.cpp       # System utility functions
 │   └── ...
 ├── include/
-│   ├── ScreenCapture.h       # 螢幕捕獲介面
-│   ├── SecurityUtils.h       # 安全工具介面
-│   ├── SystemUtils.h         # 系統工具介面
+│   ├── ScreenCapture.h       # Screen capture interface
+│   ├── SecurityUtils.h       # Security utility interface
+│   ├── SystemUtils.h         # System utility interface
 │   └── ...
 └── README.md
 ```
 
-## 注意事項
+## Important Notes
 
-- 本項目僅供學習和研究使用
-- 請遵守相關法律法規
-- 使用前請確保了解相關風險
+- This project is for learning and research purposes only
+- Please comply with relevant laws and regulations
+- Ensure you understand the associated risks before use
 
-## 許可證
+## License
 
 [AGPL-3.0 License](LICENSE) 
