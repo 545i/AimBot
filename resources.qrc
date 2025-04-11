@@ -1,0 +1,13 @@
+<!DOCTYPE RCC>
+<RCC>
+    <qresource prefix="/">
+        <file>images/discord.png</file>
+        <file>images/loading.gif</file>
+        <file>3w.onnx</file>
+    </qresource>
+    <qresource prefix="/dll">
+        <file>DLL/ddll64.dll</file>
+        <file>DLL/Vm_Mouse.dll</file>
+    </qresource>
+</RCC> 
+
