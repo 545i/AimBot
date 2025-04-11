@@ -7,7 +7,7 @@ include/ControlGUI.h
 # 排除编译生成的文件
 build/
 *.exe
-*.dll
+!DLL/*.dll
 *.lib
 *.obj
 *.pdb
