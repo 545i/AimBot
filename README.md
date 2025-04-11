@@ -1,5 +1,3 @@
-# AimBot
-
 
 # AimBot
 
