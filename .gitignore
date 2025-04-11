@@ -122,3 +122,11 @@ backup/
 *.docx
 *.doc
 *.xls
+
+# CMake 相关
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
