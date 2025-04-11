@@ -1,6 +1,6 @@
 // *打包前要使用cmake .. -DUSE_DML=ON -DCMAKE_BUILD_TYPE=Release    打開DML設定
 // *打包指令cmake --build . --config Release  
-// *Before packaging, use cmake .. -DUSE_DML=ON -DCMAKE_BUILD_TYPE=Release to open the DML setting
+// *Before packaging, use "cmake .. -DUSE_DML=ON -DCMAKE_BUILD_TYPE=Release" to open the DML setting
 // *Packaging command: cmake --build . --config Release
 
 #include <windows.h>
@@ -20,7 +20,6 @@
 #include "SecurityUtils.h"
 #include "SecurityProtection.h"
 #pragma comment(lib, "comctl32.lib")
-#include "main.moc" 
 #include "SecurityTimer.h"
 #include "VmMouseControl.h"
 #include "LanguageManager.h"
