@@ -1,0 +1,46 @@
+# 排除GUI相关文件
+src/LoginGUI.*
+src/ControlGUI.*
+include/LoginGUI.h
+include/ControlGUI.h
+
+# 排除编译生成的文件
+build/
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.manifest
+
+# 排除IDE相关文件
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# 排除日志文件
+*.log
+
+# 排除临时文件
+*.tmp
+*.temp
+*.swp
+*~
+
+# 排除系统文件
+.DS_Store
+Thumbs.db 
+
+backup/
+*.cpp
+*.h
+*.txt
+*.md
+*.pdf
+*.docx
+*.doc
+*.xls
