@@ -14,6 +14,28 @@ build/
 *.ilk
 *.exp
 *.manifest
+*.res
+*.aps
+*.pch
+*.idb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
 
 # 排除IDE相关文件
 .vs/
@@ -21,9 +43,18 @@ build/
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
 
 # 排除日志文件
 *.log
+logs/
+log/
 
 # 排除临时文件
 *.tmp
@@ -33,11 +64,56 @@ build/
 
 # 排除系统文件
 .DS_Store
-Thumbs.db 
+Thumbs.db
+desktop.ini
 
+# 排除IDE配置文件
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# 排除依赖目录
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 排除测试相关
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+
+# 排除文档生成
+docs/_build/
+site/
+
+# 排除特定文件
+DLL函數.txt
+VmUse.txt
+
+# 排除备份目录
 backup/
-*.cpp
-*.h
 *.txt
 *.md
 *.pdf
