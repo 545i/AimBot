@@ -1,5 +1,5 @@
 
-# AimBot 
+# AimBot   
 
 AimBot is a computer vision-based screen capture and target detection system, primarily designed for gaming assistance and automation.
 
